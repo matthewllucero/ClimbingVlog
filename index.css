@@ -67,3 +67,18 @@ body {
     right: 0;
     margin: 0;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+.column {
+    flex: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%
+}
