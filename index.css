@@ -14,6 +14,7 @@ body {
     font-size: 16pt;
     bottom: 5em;
     position: relative;
+    font-family: Arial, sans-serif;
 }
 .miguel {
     border-radius: 50%;
@@ -23,7 +24,7 @@ body {
     text-align: center;
 }
 #header>h2 {
-    letter-spacing: 4px;
+    letter-spacing: 4.5px;
     text-align: center;
 }
 #header {
@@ -33,6 +34,7 @@ body {
     top: 0%;
     background-color: White;
     padding-top: 1.5em;
+    opacity: 0.85;
 }
 #header>nav>ul>li {
     list-style-type: none;
