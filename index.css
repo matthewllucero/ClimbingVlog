@@ -1,41 +1,69 @@
-table {
-    text-align: center;
-    margin: 0px auto;
+body {
+    font-family: sans-serif;
+    background-color: LightGray;
+    margin: 0;
+    overflow: auto;
 }
-
-td {
-    padding: 10px;
-}
-
-#topTitle {
-    text-align: center;
-    margin: 0px auto;
-}
-
-a {
-    color: SteelBlue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 #socialMediaLogos {
-    text-align: center;
+    text-align: right;
 }
-
 #aboutMe {
     width: 500px;
-    height: 120px;
+    height: 220px;
     line-height: 1.5;
     font-size: 16pt;
+    bottom: 5em;
+    position: relative;
 }
-
 .miguel {
     border-radius: 50%;
 }
-
-main {
+#main {
+    margin-top: 9em;
     text-align: center;
+}
+#header>h2 {
+    letter-spacing: 4px;
+    text-align: center;
+}
+#header {
+    margin-bottom: 5em;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: White;
+    padding-top: 1.5em;
+}
+#header>nav>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .5em;
+}
+#header>nav>ul {
+    text-align: center;
+    margin: 0;
+    margin-right: 3em;
+}
+#header>nav>ul>li>a {
+    text-decoration: none;
+    color: SteelBlue;
+}
+#header>nav>ul>li>a:hover { text-decoration: underline; }
+#footer>div>ul>li {
+    list-style-type: none;
+    display: inline-block;
+}
+#footer>div>ul { padding: .25em; }
+#main>div>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+#footer {
+    background-color: LightGray;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
