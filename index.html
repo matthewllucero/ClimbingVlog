@@ -1,44 +1,77 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>ClimbingVlog - HOME</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta charset="utf-8">
         <meta name="author" content="Matthew Lucero">
         <meta name="description" content="Website For Miguel's ClimbingVlog">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="header">
-            <h2 id="topTitle">CLIMBINGVLOG</h2>
-            <nav id="topLinks">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="vlogs.html">VLOGS</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                </ul>
+
+        <!-- Title and Navbar -->
+        <div class="container p-3">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#" id="vlogName"><h3><b>CLIMBING</b>VLOG</h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="about2.html">ABOUT</a>
+                        <a class="nav-item nav-link" href="vlogs2.html">VLOGS</a>
+                        <a class="nav-item nav-link" href="gallery2.html">GALLERY</a>
+                    </div>
+                </div>
             </nav>
+            <hr>
         </div>
-        <div id="main">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/bLSdixa1wao?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <!--
-        <div id="footer">
-            <div id="socialMediaLogos">
-                <ul>
-                    <li><a rel="external noopener noreferrer" target="_blank" href="https://www.instagram.com/ClimbingVlog">
-                        <img src="ig_logo.png" width="24px" height="24px">
-                    </a></li>
-                    <li><a rel="external noopener noreferrer" target="_blank" href="https://www.twitter.com/ClimbingVlog">
-                        <img src="twitter_logo_color.png" width="24px" height="24px">
-                    </a></li>
-                    <li><a rel="external noopener noreferrer" target="_blank" href="https://www.facebook.com/TheClimbingVlog/?ref=bookmarks">
-                        <img src="fb_logo.png" width="24px" height="24px">
-                    </a></li>
-                </ul>
+
+        <!-- NEWEST VIDEO -->
+        <div class="container">
+            <!--
+            <div class="row">
+                <div class="col-sm-12 text-center pb-1">
+                    <p class="h4">NEWEST VIDEO</p>
+                </div>
+            </div>
+            -->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IVKVjvcWolw?autoplay=1&mute= 0"></iframe>
+                    -->  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed?listType=playlist&list=PL_XTNwjmsBnnv0Qtm1B3qS-Vte_V3fAuz"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-        -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container text-center">
+                <a href="https://www.facebook.com/TheClimbingVlog" target="_blank">
+                    <i id="icons" class="fab fa-facebook fa-2x px-1"></i>
+                </a>
+                <a href="https://www.twitter.com/ClimbingVlog" target="_blank">
+                    <i id="icons" class="fab fa-twitter fa-2x px-1"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC-Ior4OOSph_7O3rxBZLHJw" target="_blank">
+                    <i id="icons" class="fab fa-youtube fa-2x px-1"></i>
+                </a>
+                <a href="https://www.instagram.com/ClimbingVlog" target="_blank">
+                    <i id="icons" class="fab fa-instagram fa-2x px-1"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
     </body>
 </html>
